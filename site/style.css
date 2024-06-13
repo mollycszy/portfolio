@@ -27,6 +27,7 @@ background-color: #001400;
 { margin: 0 15px;
 color: #f1e9da!important;}
 
+
 .name{
 	font-family: swear-text-cilati, sans-serif;
 	font-weight: 800;
@@ -53,17 +54,17 @@ h2{
 	font-family: swear-text-cilati, sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	font-size:var(8em);
+	font-size:8em;
 	color:#001400;
 	text-align: center;
-	transform:translateY(-200%);
+	transform:translateY(-200%)
 	
 }
 h3{
 	font-family: swear-text-cilati, sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	font-size:var(6em);
+	font-size:6em;
 	color:#001400;
 	text-align: center;
 	transform:translateY(-200%);
@@ -71,7 +72,7 @@ h3{
 }
 h4{
 	font-family: "Helvetica Neue", Helvetica, "sans-serif";
-	font-size:var(2.5em);
+	font-size:2.5em;
 	font-weight:300;
 	font-style:italic;
 	color:#001400;
@@ -226,6 +227,9 @@ color: #f1e9da;
  body {
   background-color: #001400;  
 }
+	.bi{
+		display: none;
+	}
 .navbar {
   background-color: #d34e24;
   border-radius: 20px;
@@ -252,7 +256,7 @@ color: #f1e9da;
   font-family: swear-text-cilati, sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 8em;
+  font-size: 4em;
   color: #f1e9da;
   text-align: center;
   transform: translateY(-450%);
@@ -261,6 +265,7 @@ color: #f1e9da;
   background-color: #f1e9da !important;
   max-height: 1350px;
 }
+
 #words {
   margin-top: 1000px;
 }
@@ -274,7 +279,7 @@ h2 {
   font-family: swear-text-cilati, sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: var(8em);
+  font-size: 4em;
   color: #001400;
   text-align: center;
   transform: translateY(-200%);
@@ -283,14 +288,14 @@ h3 {
   font-family: swear-text-cilati, sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: var(6em);
+  font-size: 3em;
   color: #001400;
   text-align: center;
   transform: translateY(-200%);
 }
 h4 {
   font-family: "Helvetica Neue", Helvetica, "sans-serif";
-  font-size: var(2.5em);
+  font-size: 2em;
   font-weight: 300;
   font-style: italic;
   color: #001400;
@@ -403,85 +408,15 @@ hr.custom-hr {
   text-align: center;
   color: #f1e9da;
 }
-
-/* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-  .navbar {
-    width: 90%;
-    left: 5%;
-    margin: 10px;
-    border-radius: 10px;
-  }
-  .navbar-center {
-    font-size: 1.2em;
-  }
-  .name {
-    font-size: 4em;
-    transform: translateY(-200%);
-  }
-  .container {
-    transform: translateY(-20%);
-    padding: 10px;
-  }
-  h2 {
-    font-size: 3em;
-    transform: translateY(-100%);
-  }
-  h3 {
-    font-size: 2em;
-    transform: translateY(-100%);
-  }
-  h4 {
-    font-size: 1.5em;
-    transform: translateY(-200%);
-  }
-  #flower, #flower2 {
-    width: 50%;
-    transform: translateY(-150%);
-  }
-  .center {
-    width: 80%;
-  }
-  .bi {
-    font-size: 2em;
-    margin-left: 40%;
-    transform: translateY(-100%);
-  }
-  .articles-list {
-    margin-top: 0;
-  }
-  .articles-list a {
-    font-size: 1.5em;
-  }
-  .articles-list li {
-    width: 90%;
-    margin: 5px 0;
-  }
-  #writing-header, #visuals-header {
-    margin-top: 0;
-  }
-  .viz-container {
-    margin: 0 20px;
-  }
-  .section-head {
-    font-size: 2em;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  .section-caption {
-    font-size: 1.5em;
-    margin-top: 5px;
-    margin-bottom: 20px;
-  }
-  .row {
-    margin-bottom: 20px;
-  }
-  .d-flex {
-    margin-left: 0;
-  }
-  .footer {
-    font-size: 0.8em;
-    padding: 10px;
-  }
+	#id{
+		display:none;
+	}
 }
+@media (max-width: 500px){
+	.content{
+		display:none;
+	}
+	#mobile{
+		display:block;
+	}
 }
