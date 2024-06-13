@@ -222,3 +222,41 @@ color: #f1e9da;
 		margin-left: 0px;
 	}
 }
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: none; 
+  }
+
+  .navbar-toggler {
+    display: block; 
+  }
+	  .navbar-toggler:focus {
+		  outline: none; }
+
+  .navbar-collapse {
+    display: none; 
+  }
+	
+	.name{
+		font-size: 2em;
+		transform: translateY(-150%);
+	}
+	.row{
+		margin-left: 0px;
+	}
+	.dflex{
+		margin-left: 0px;
+	}
+	.container{
+		padding:10px;
+		width:auto;
+	}
+	#writing-header{
+		margin-top:0px;
+		width:auto;
+	}
+	#visuals-header{
+		margin-top:0px;
+		width:auto;
+	}
+}
