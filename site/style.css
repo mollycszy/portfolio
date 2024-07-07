@@ -196,6 +196,9 @@ hr.custom-hr{
 	text-align: center;
 color: #f1e9da;
 }
+#mobile{
+		display:none;
+	}
 
 @media (max-width: 1024px) {
   .navbar-nav {
@@ -412,6 +415,7 @@ hr.custom-hr {
 		display:none;
 	}
 }
+
 @media (max-width: 500px){
 	.content{
 		display:none;
